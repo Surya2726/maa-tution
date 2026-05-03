@@ -7098,7 +7098,9 @@ p {
 @media (max-width: 1199px) {
   .counter-section {
     background-color: var(--theme-color);
+     padding-bottom: 50px !important;
   }
+ 
 }
 .counter-section::before {
   position: absolute;
@@ -7174,6 +7176,7 @@ p {
 @media (max-width: 767px) {
   .counter-items {
     border-right: none;
+    margin: 15px 0;
   }
 }
 .counter-items .counter-box {
@@ -10115,7 +10118,7 @@ p {
 }
 @media (max-width: 575px) {
   .choose-us-wrapper .choose-us-content .icon-items {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
 }
 .choose-us-wrapper .choose-us-content .icon-items .icon {
