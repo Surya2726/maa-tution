@@ -10358,6 +10358,11 @@ p {
   top: 17%;
   animation: rounded2 6s linear infinite;
 }
+.client-image-2 img{
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+}
 @media (max-width: 1199px) {
   .testimonial-section .pencil-icon {
     opacity: 0.2;
