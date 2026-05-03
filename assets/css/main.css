@@ -8840,7 +8840,7 @@ p {
 }
 .gallery-section .item-bg {
   position: absolute;
-  top: 0;
+  top: -1px;
   left: 0;
   z-index: 9;
   height: 36px;
