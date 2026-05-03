@@ -8347,6 +8347,7 @@ p {
   height: 230px;
   object-fit: cover;
   border-radius: 10px;
+  filter: brightness(1.1);
 }
 .classes-box-item .classes-content {
   padding: 30px;
@@ -9592,6 +9593,7 @@ p {
     width: 350px;
     object-fit: cover;
     border-radius: 50%;
+    filter: brightness(1.1) contrast(1.1);
 }
 .team-card-item .team-content {
   margin-top: 30px;
