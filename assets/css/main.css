@@ -2229,6 +2229,7 @@ p {
   font-size: 32px;
   margin-bottom: 15px;
   font-weight: 700;
+  color: var(--theme-color-2);
 }
 .offcanvas__wrapper .offcanvas__content p {
   color: #385469;
@@ -2281,7 +2282,7 @@ p {
   margin-bottom: 15px;
 }
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact .contact-list {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact .contact-list li {
   display: flex;
@@ -12127,7 +12128,7 @@ p {
 }
 .footer-two .busket-shape-2 {
   position: absolute;
-  top: -15%;
+  top: -25%;
   left: 13%;
 }
 @media (max-width: 1399px) {
@@ -12533,7 +12534,7 @@ p {
 }
 .footer-widgets-two .footer-bottom-2 {
   justify-content: space-between;
-  padding-top: 90px;
+  /* padding-top: 90px; */
   margin-top: 0;
   display: flex;
   align-items: center;
