@@ -169,15 +169,15 @@
     if ($('.testimonial-slider').length > 0) {
         const testimonialSlider = new Swiper(".testimonial-slider", {
         spaceBetween: 10,
-        speed: 2000,
+        speed: 3000,
         loop: true,
         autoplay: {
             delay: 2000,
             disableOnInteraction: false,
         },
         navigation: {
-            nextEl: ".array-prev",
-            prevEl: ".array-next",
+            nextEl: ".array-next",
+            prevEl: ".array-prev",
         },
         breakpoints: {
             1199: {
@@ -197,6 +197,7 @@
             },
         },
     });
+    
    }
 
     if ($('.testimonial-slider-3').length > 0) {

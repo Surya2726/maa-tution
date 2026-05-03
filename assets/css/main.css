@@ -6283,10 +6283,6 @@ p {
   background-color: var(--header);
 }
 
-.price-range-wrapper {
-  /* Custom thumb styling */
-  /* Remove the default appearance for sliders in Firefox */
-}
 .price-range-wrapper .slider-container {
   position: relative;
   width: 100%;
@@ -8408,9 +8404,6 @@ p {
   color: var(--theme-color-2);
   font-size: 16px;
 }
-.classes-box-item .classes-content .classes-rate .rate ul li:last-child i {
-  /* color: #808080; */
-}
 .classes-box-item .classes-content .theme-btn {
   border: 1px solid var(--theme-color-2);
   background-color: transparent;
@@ -10124,11 +10117,6 @@ p {
   align-items: center;
   gap: 20px;
   margin-top: 30px;
-}
-@media (max-width: 575px) {
-  .choose-us-wrapper .choose-us-content .icon-items {
-    /* flex-wrap: wrap; */
-  }
 }
 .choose-us-wrapper .choose-us-content .icon-items .icon {
   width: 100%;
