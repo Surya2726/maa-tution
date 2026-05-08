@@ -10099,11 +10099,13 @@ p {
 @media (max-width: 470px) {
   .choose-us-wrapper .choose-img-box .style-2 {
     margin-left: 0;
+    width: 250px;
   }
 }
 @media (max-width: 470px) {
   .choose-us-wrapper .choose-img-box img {
-    width: 100%;
+    /* width: 100%; */
+    width: 250px !important;
   }
 }
 .choose-us-wrapper .choose-img-box .img-3 {
@@ -10123,7 +10125,9 @@ p {
   }
   .choose-us-wrapper .choose-img-box .img-3 img {
     width: 100%;
-    height: 100%;
+            height: 275px;
+        object-fit: contain;
+        border-radius: 50px;
   }
 }
 .choose-us-wrapper .choose-us-content {
