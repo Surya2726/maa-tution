@@ -10108,7 +10108,7 @@ p {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 20px;
+  right: 0px;
 }
 @media (max-width: 1199px) {
   .choose-us-wrapper .choose-img-box .img-3 {
@@ -11009,7 +11009,7 @@ p {
 .brand-slider .swiper-wrapper .swiper-slide .brand-image img {
   height: 220px;
   width: 100%;
-  filter: grayscale(1) opacity(0.7);
+  /* filter: grayscale(1) opacity(0.7); */
   transition: all 0.4s ease-in-out;
 }
 .brand-slider .swiper-wrapper .swiper-slide .brand-image:hover img {
