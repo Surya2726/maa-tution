@@ -9583,10 +9583,13 @@ p {
 }
 .team-card-item .team-image img {
  height: 350px;
-    width: 350px;
+    width: 300px;
     object-fit: cover;
     border-radius: 50%;
-    filter: brightness(1.1) contrast(1.1);
+   
+}
+.team-img-2 {
+ filter: brightness(1.1) contrast(1.1);
 }
 .team-card-item .team-content {
   margin-top: 30px;
@@ -10077,7 +10080,20 @@ p {
 .choose-us-wrapper .choose-img-box .style-2 {
   margin-left: 79px;
   margin-bottom: -40px;
+  width: 298px;
 }
+.choose-us-wrapper .choose-img-box .style-1 {
+  width: 350px;
+}
+.choose-us-wrapper .choose-img-box .style-3 {
+  width: 320px;
+}
+.choose-img-box img {
+  transition: all 0.4s ease-in-out;
+  border-radius: 15px;
+  filter: brightness(1.2);
+}
+
 @media (max-width: 470px) {
   .choose-us-wrapper .choose-img-box .style-2 {
     margin-left: 0;
@@ -10991,7 +11007,7 @@ p {
   width: auto !important;
 }
 .brand-slider .swiper-wrapper .swiper-slide .brand-image img {
-  height: 80px;
+  height: 220px;
   width: 100%;
   filter: grayscale(1) opacity(0.7);
   transition: all 0.4s ease-in-out;
@@ -12954,4 +12970,8 @@ p {
 }
 .error-items .error-btn .custom-input-group .custom-search-btn:hover i {
   transform: rotate(-45deg);
+}
+.hero-img-custom {
+  max-width: 100%;
+  filter: brightness(1.1);
 }
