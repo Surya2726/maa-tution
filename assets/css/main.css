@@ -4903,6 +4903,8 @@ p {
 @media (max-width: 1199px) {
   .about-section .tubelight-shape {
     opacity: 0.3;
+    left: 1%;
+    top: 13%;
   }
 }
 .about-section .sun-shape {
