@@ -56,18 +56,20 @@
             $(".body-overlay").removeClass("opened");
         });
 
-        /* ================================
-        Sticky Header Js Start
-        ================================ */
-    
-        $(window).scroll(function() {
-            if ($(this).scrollTop() > 250) {
-                $("#header-sticky").addClass("sticky");
-            } else {
-                $("#header-sticky").removeClass("sticky");
-            }
-        });
 
+    
+      // UPDATED STICKY HEADER:
+let isSticky = false;
+window.addEventListener('scroll', function() {
+    const scroll = window.scrollY || document.documentElement.scrollTop;
+    if (scroll > 250 && !isSticky) {
+        $("#header-sticky").addClass("sticky");
+        isSticky = true;
+    } else if (scroll <= 250 && isSticky) {
+        $("#header-sticky").removeClass("sticky");
+        isSticky = false;
+    }
+}, { passive: true });
         /* ================================
         Video & Image Popup Js Start
         ================================ */
@@ -608,15 +610,19 @@
     /* ================================
        Preloader Js Start
     ================================ */
-    function loader() {
-        $(window).on('load', function() {
-            // Animate loader off screen
-            $(".preloader").addClass('loaded');                    
-            $(".preloader").delay(600).fadeOut();                       
-        });
-    }
-    loader();
-    
+   // NEW UPDATED CODE:
+function hideLoader() {
+    $(".preloader").addClass('loaded');
+    setTimeout(function() {
+        $(".preloader").fadeOut(200);
+    }, 50);
+}
+
+if (document.readyState === "complete") {
+    hideLoader();
+} else {
+    $(window).on('load', hideLoader);
+}
 
 
 
