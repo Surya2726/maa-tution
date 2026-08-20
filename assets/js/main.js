@@ -141,25 +141,26 @@ window.addEventListener('scroll', function() {
         });
     }
 
-     /* ================================
-       Brand Slider Js Start
-    ================================ */
+    /* ================================
+   Brand Slider Js Start
+================================ */
 
-    if ($('.brand-slider').length > 0) {
-        new Swiper(".brand-slider", {
+if ($('.brand-slider').length > 0) {
+    new Swiper(".brand-slider", {
+        slidesPerView: 'auto',
+        spaceBetween: 90,
+        loop: true,
+        speed: 4000,
+        freeMode: true,
         autoplay: {
             delay: 0,
+            disableOnInteraction: false, // Click/Touch chesina autoplay continue avtundi
+            pauseOnMouseEnter: true,      // Mouse hover chesinappudu matrame pause avtundi
         },
-          slidesPerView: 'auto',
-          pauseOnMouseEnter: true,
-          speed: 4000,
-          spaceBetween: 90,
-          loop: true,
-          pagination: false,
-          navigation: false,
-        });
-    }
-
+        pagination: false,
+        navigation: false,
+    });
+}
     /* ================================
        Testimonial Slider Js Start
     ================================ */
